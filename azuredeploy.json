@@ -15,7 +15,7 @@
             "defaultValue": "East Asia"
             
         },
-        "Resourcce Group Name":{
+        "Resource Group Name":{
             "type": "string"
         }
         
@@ -39,7 +39,7 @@
             "type": "Microsoft.Resources/resourceGroups",
             "apiVersion": "2018-05-01",
             "location": "[parameters('location')]",
-            "name": "[parameters('Resourcce Group Name')]",
+            "name": "[parameters('Resource Group Name')]",
             "properties": {}
         },
         {
