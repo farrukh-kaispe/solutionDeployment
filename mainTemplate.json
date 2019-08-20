@@ -32,7 +32,7 @@
         
     },
     "resources": [
-  
+        
         {
             "name": "[variables('storageAccountName')]",
             "type": "Microsoft.Storage/storageAccounts",
