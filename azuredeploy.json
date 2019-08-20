@@ -12,7 +12,7 @@
                 "West US",
                 "Southeast Asia"
               ],
-            "defaultValue": "eastasia"
+            "defaultValue": "East Asia"
             
         }
         
@@ -32,7 +32,13 @@
         
     },
     "resources": [
-  
+        {
+            "type": "Microsoft.Resources/resourceGroups",
+            "apiVersion": "2018-05-01",
+            "location": "[parameters('location')]",
+            "name": "[parameters('rgName')]",
+            "properties": {}
+        },
         {
             "name": "[variables('storageAccountName')]",
             "type": "Microsoft.Storage/storageAccounts",
