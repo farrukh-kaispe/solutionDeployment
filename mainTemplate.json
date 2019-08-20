@@ -1,6 +1,6 @@
 {
     "$schema": "",
-    "contentVersion": "1.0.0.0",
+    "contentVersion": "",
     "parameters": {
         "DeploymentName": {
             "type": "string"
