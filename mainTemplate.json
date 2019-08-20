@@ -1,23 +1,10 @@
 {
-    "$schema": "",
-    "contentVersion": "",
+    "$schema": "https://schema.management.azure.com/schemas/0.1.2-preview/CreateUIDefinition.MultiVm.json#",
+    "handler": "Microsoft.Azure.CreateUIDef",
+    "version": "0.1.2-preview",
     "parameters": {
-        "DeploymentName": {
-            "type": "string"
-        },
-        "Location": {
-            "type": "string"
-        }
-    },
-    "variables": {},
-    "resources": [
-        {
-            "type": "Microsoft.Resources/resourceGroups",
-            "apiVersion": "2018-05-01",
-            "location": "[parameters('Location')]",
-            "name": "[parameters('DeploymentName')]",
-            "properties": {}
-        }
-    ],
-    "outputs": {}
+        "basics": [ ],
+        "steps": [ ],
+        "outputs": { }
+    }
 }
